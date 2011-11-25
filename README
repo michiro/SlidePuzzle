@@ -1,0 +1,15 @@
+「androidで動くゲームの作り方入門」のサンプルコードです。
+解説は http://michi-h.blogspot.com に書いています。
+
+コンパイル方法(android-sdk r14以降が必要)
+ver1ディレクトリに入り
+ant debug
+
+エミュレータへのインストール
+adb -e install bin/SlidePuzzle1-debug.apk
+
+実機へのインストール
+adb -d install bin/SlidePuzzle1-debug.apk
+
+コンパイル済みのパッケージファイルも置いて有ります。
+adb -d install pkg/SlidePuzzle1-debug.apk

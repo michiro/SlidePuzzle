@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ant debug
+adb -e install -r bin/SlidePuzzle1-debug.apk
